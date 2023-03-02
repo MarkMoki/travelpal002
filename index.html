@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>TravelPal</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <!----------------------------------------------HEADER - START---------------------------------------------------------->
+
+
+  <header id="header" data-spy="affix" data-offset-top="60" data-offset-bottom="60" class="affix-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8  col-sm-12 col-xs-12 col-sm-12">
+          <nav class="navbar">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle
+                  navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span
+                  class="icon-bar"></span> </button>
+              <a class="navbar-brand" href="#">
+                <h3>TravelPal</h3>
+              </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="main-menu collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-left">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li role="presentation" class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                    role="button" aria-haspopup="true" aria-expanded="false"> BOOKING <span class="caret"></span> </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="booking.html">Booking Page</a></li>
+                    <li><a href="#packages">Packages Deatil</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                  </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </nav>
+        </div>
+        <div class="col-md-4  col-sm-12 col-xs-12 col-sm-12 hidden-xs">
+          <ul class="right-contact">
+            <li><i class="fa fa-phone" aria-hidden="true"> +254759215000</i></li><br>
+            <li><a href="dist/sign.html" class="btn btn-primary btn-skin">Join us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </header>
+
+  <!----------------------------------------------HEADER - END---------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+  <!----------------------------------------------PACKAGES - SECTION - START---------------------------------------------------------->
+
+  <section class="banner">
+    <div class="container text-center parallax-section">
+      <div class="row text-center">
+        <div class="pdn">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <h1 class="panel-heading animated fadeInRight">Ready to Enjoy your Tour?</h1>
+            <p class="caption animated fadeInLeft">Book Expert travel advice and accomodation at a moment's notice. just
+              pick a<br>
+              destination package and we'll do the rest</p>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <form class="form-inline book-now-home animated fadeInUp">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <div class="slct">
+                        <p class="animated flash">Please select your desination!</p>
+                        <select>
+                          <option>Nairobi</option>
+                          <option>Mombasa</option>
+                          <option>Nakuru</option>
+                          <option>Meru</option>
+                          <option>Kisumu</option>
+                          <option>Kakamega</option>
+                          <option>Kilifi</option>
+                          <option>Naivasha</option>
+                          <option>Others</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <p class="animated flash">Please select your city/home</p>
+                  <select>
+                    <option>Nairobi</option>
+                    <option>Mombasa</option>
+                    <option>Nakuru</option>
+                    <option>Meru</option>
+                    <option>Kisumu</option>
+                    <option>Kakamega</option>
+                    <option>Naivasha</option>
+                    <option>Others</option>
+                  </select>
+                </div>
+                <br>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <button type="submit" class="btn btn-primary booknow btn-skin">Book now</button><br>
+                </div>
+              </form>
+              <br>
+              <a href="dist/sign.html" class="join-button">Join Us</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!----------------------------------------------PACKAGES - SECTION - END---------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+  <!----------------------------------------------HOW IT WORK - SECTION - END---------------------------------------------------------->
+
+
+  <section class="howitwork animated fadeInRight">
+    <div class="container text-center">
+      <h1 class="panel-heading animated fadeInRight">How it works</h1>
+      <div class="row">
+        <div class="col-md-3 col-xs-offset-0 step-one"> <img src="images/Logo images/book2.png" alt="Book"
+            class="img-rounded">
+          <h4>Book</h4>
+          <p>Select the date and time of<br>
+            your travel destination</p>
+        </div>
+        <div class="col-md-1 hidden-xs hidden-sm"> </div>
+        <div class="col-md-3 step-two"> <img src="images/Logo images/Schedule2.png" alt="Schedule" class="img-rounded">
+          <h4>Schedule</h4>
+          <p>Certified Taskers comes over<br>
+            and do the hustle</p>
+        </div>
+        <div class="col-md-1 hidden-xs hidden-sm" id="packages"> </div>
+        <div class="col-md-3"> <img src="images/Logo images/Relax2.png" alt="Relax" class="img-rounded">
+          <h4>Relax</h4>
+          <p>your hustle is completed to your<br>
+            satisfaction - guranteed</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----------------------------------------------HOW IT WORK - SECTION - END---------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+  <!----------------------------------------------OUR-PACKAGES - SECTION - START---------------------------------------------------------->
+
+
+  <section class="services animated fadeInLeft">
+    <div>
+      <div class="container text-center">
+        <h1 class="panel-heading">Our Packages</h1>
+        <ul class="services-list">
+          <li><a href="pac/nairobi/index.html"><img src="img/nairobi.jpeg" alt="package"><br>
+              <h3>Nairobi</h3>
+            </a></li>
+          <li><a href="pac/mombasa/index.html"><img src="img/mombasa.jpeg" alt="package"><br>
+              <h3>Mombasa</h3>
+            </a></li>
+          <li><a href="pac/nakuru/index.html"><img src="img/nakuru.jpeg" alt="package"><br>
+              <h3>Nakuru</h3>
+            </a></li>
+          <li><a href="pac/meru/index.html"><img src="img/meru.jpeg" alt="package"><br>
+              <h3>Meru</h3>
+            </a></li>
+          <li><a href="pac/kisumu/index.html"><img src="img/kisumu.jpeg" alt="package"><br>
+              <h3>Kisumu</h3>
+            </a></li>
+          <li><a href="pac/kakamega/index.html"><img src="img/kakamega.jpeg" alt="package"><br>
+              <h3>Kakamega</h3>
+            </a></li>
+          <li><a href="pac/kilifi/index.html"><img src="img/kilifi.jpeg" alt="package"><br>
+              <h3>Kilifi</h3>
+            </a></li>
+          <li><a href="pac/naivasha/index.html"><img src="img/naivasha.jpeg" alt="package"><br>
+              <h3>Naivasha</h3>
+            </a></li>
+          <li><a href="pac/machakos/index.html"><img src="img/machakos.jpeg" alt="package"><br>
+              <h3>Machakos</h3>
+            </a></li>
+          <li><a href="pac/more/index.html"><img src="#" alt=">>>"><br>
+              <h3>View More</h2>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <!----------------------------------------------OUR-PACKAGES - SECTION - END---------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!----------------------------------------------TRUST-SECURITY - SECTION - START---------------------------------------------------------->
+
+
+  <section class="trust-security animated zoomIn">
+    <div class="container text-center">
+      <h1 class="panel-heading">Your Trust and Security</h1>
+      <div class="row text-left">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="icon_box_one">
+            <div class="icons"><img src="images/Logo images/time.png" alt="SAVES"></div>
+            <div class="box_content">
+              <h4>SAVES YOU TIME</h4>
+              <p>We helps you live smarter, giving you time to focus on what's most important.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="icon_box_one">
+            <div class="icons"><img src="images/Logo images/Safety.png" alt="Safety"></div>
+            <div class="box_content">
+              <h4>For Your Safety</h4>
+              <p>All of our Helpers undergo rigorous identity checks and personal interviews. Your safety is even our
+                concern too.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="icon_box_one">
+            <div class="icons"><img src="images/Logo images/best.png" alt="Best"></div>
+            <div class="box_content">
+              <h4>Best-Rated Professionals</h4>
+              <p>Our experienced taskers and tour providers perform their tasks with dedication and perfection. We
+                appreciate your reviews about the service.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="icon_box_one">
+            <div class="icons"><img src="images/Logo images/Equipped.png" alt="Equipped"></div>
+            <div class="box_content">
+              <h4>We Are Well Equipped</h4>
+              <p>Let us know if you have any specific requirement, otherwise enjoy the services.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="icon_box_one">
+            <div class="icons"><img src="images/Logo images/touch.png" alt="Always"></div>
+            <div class="box_content">
+              <h4>Always In Touch</h4>
+              <p>Book your service online on one tap, keep a track of your package status and also keep in touch with
+                our help team.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="icon_box_one">
+            <div class="icons"><img src="images/Logo images/cash.png" alt="cash"></div>
+            <div class="box_content">
+              <h4>Cash-Free Facility</h4>
+              <p>Pay through secure modes available country wide.</p><br>
+              <a href="#" class="read-more">Read More <span class="fa fa-menu-right"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!----------------------------------------------TRUST-SECURITY - SECTION - END---------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!----------------------------------------------NUMBERS - SECTION - END---------------------------------------------------------->
+
+
+  <div class="num">
+    <section class="numbers">
+      <div class="container text-center">
+        <div class="num1">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+              <!--counter box-->
+              <div class="counter_box text-center">
+                <div class="counter_icon"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></div>
+                <div class="counter_number counter"><span class="stat-count">100</span>%</div>
+                <h4 class="counter_name">Quality</h4>
+              </div>
+              <!--counter box end-->
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+              <!--counter box-->
+              <div class="counter_box text-center">
+                <div class="counter_icon"><i class="fa fa-user" aria-hidden="true"></i></div>
+                <div class="counter_number counter"><span class="stat-count">91</span>+</div>
+                <h4 class="counter_name">People Working</h4>
+              </div>
+              <!--counter box end-->
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+              <!--counter box-->
+              <div class="counter_box text-center">
+                <div class="counter_icon"><i class="fa fa-calendar-o" aria-hidden="true"></i></div>
+                <div class="counter_number counter"><span class="stat-count">8</span> Years</div>
+                <h4 class="counter_name">Years Experience</h4>
+              </div>
+              <!--counter box end-->
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+              <!--counter box-->
+              <div class="counter_box text-center">
+                <div class="counter_icon"><i class="fa fa-smile-o" aria-hidden="true"></i></div>
+                <div class="counter_number counter"><span class="stat-count">900</span>+</div>
+                <h4 class="counter_name">Happy Smiles</h4>
+              </div>
+              <!--counter box end-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <!----------------------------------------------NUMBERS - SECTION - END---------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!----------------------------------------------FEATURE - SECTION - START---------------------------------------------------------->
+
+  <div class="ftr">
+
+    <section id="features">
+      <div class="container text-center features-section">
+        <div class="row text-left">
+          <div class="col-md-6 col-sm-6 col-xs-12 text-center">
+            <img src="images/Expert images/qualit_work.png" class="img-responsive" alt="Meet the Hire Pros">
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <h2>Meet the Tour Pros</h2>
+            <div class="icon_box_one"> <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              <div class="box_content">
+                <h4>Mutembei Akash</h4>
+                <p>TravelPal is simply the best tour and advisory industry. TravelPal has been the industry's standard
+                  service provider ever since the 2015. We don't charge you any booking fees or add any administrative
+                  charges. And in many cases, your booking can be canceled free of charge. </p>
+              </div>
+            </div>
+            <div class="icon_box_one"> <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              <div class="box_content">
+                <h4>Otoyo Frank</h4>
+                <p>By investing in technology that takes the friction out of travel, TravelPal seamlessly connects
+                  millions of travelers to memorable experiences, a variety of transportation options, and incredible
+                  places to stay from homes to hotels, and much more.</p>
+              </div>
+            </div>
+            <div class="icon_box_one"> <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              <div class="box_content">
+                <h4>Natasha Mukono</h4>
+                <p>TravelPal guarantees to offer you the best available rates. And with our promise to price match, you
+                  can rest assured that you're always getting a great deal. </p>
+              </div>
+            </div>
+            <div class="icon_box_one"> <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              <div class="box_content">
+                <h4>Magrita Kinoro</h4>
+                <p>Whether you've just booked or are already enjoying your trip, our Customer Experience Team is
+                  available around the clock to answer your questions and advocate on your behalf.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+
+  <!----------------------------------------------FEATURE - SECTION - END---------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!----------------------------------------------TESTOMINAL - SECTION - START---------------------------------------------------------->
+
+  <div class="test">
+
+    <section id="testimonails">
+      <div class="container text-center">
+        <h1 class="panel-heading">Testimonails</h1>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel "> <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner text-center">
+                <div class="item active">
+                  <div class="avatar"><img class="img-circle" src="images/Expert images/clinte1.png" alt="Client 1">
+                  </div>
+                  <h3>Akabe Sarai</h3>
+                  <strong>Client</strong>
+                  <p>Prompt and excellent service at all times which exceeded our expectations! Will definitely
+                    recommend TravelPal Tourism to my family, friends and colleagues. A big thank you to Mutembei Akash
+                    for being extremely helpful!</p>
+                </div>
+                <div class="item">
+                  <div class="avatar"><img class="img-circle" src="images/Expert images/clinte3.png" alt="Client 2">
+                  </div>
+                  <h3>Austin Murage3</h3>
+                  <strong>Client</strong>
+                  <p>We didn't plan anything. Searched about them online. They made our package and gave us the best
+                    price. Everything went smooth because of them. Thank you guys.</p>
+                </div>
+                <div class="item">
+                  <div class="avatar"><img class="img-circle" src="images/Expert images/clinte4.png" alt="Client 3">
+                  </div>
+                  <h3>Karisa Linsy</h3>
+                  <strong>Client</strong>
+                  <p>I have used this agency to apply for tours visits for many family members in the last 6 years. They
+                    are super reliable and fast.</p>
+                </div>
+              </div>
+              <!-- Controls --> <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="fa fa-angle-left"></span> </a> <a class="right carousel-control"
+                href="#carousel-example-generic" data-slide="next"> <span class="fa fa-angle-right"></span> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!----------------------------------------------TESTOMINAL - SECTION - START---------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+  <!---------------------------------------------CALL -SECTION - START--------------------------------------------------------------------->
+
+
+  <div class="call">
+
+    <section id="call-to-action">
+      <div class="container free_consultation">
+        <div class="row">
+          <div class="col-md-8 col-sm-8 col-xs-12 text-left">
+            <h2>Wanted a <a href="#about" class="href">Free Consultation?</a></h2>
+            <p>we are always ready to welcome you!</p>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12 m-text-center text-right"> <a
+              class="btn btn-primary btn-outline">Schedule Tour <br><h1><i>Just</i></h1><h3>visit our packages</h3></a> </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+
+  <!---------------------------------------------CALL -SECTION - END--------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+  <!---------------------------------------------FOOTER - START--------------------------------------------------------------------------->
+
+
+  <footer>
+    <div class="footer-bottom-area bg-dark-light section-padding-sm">
+      <div class="container">
+        <div class="row widgets footer-widgets">
+
+          <div class="col-lg-4 col-md-6 col-12" id="about">
+            <div class="single-widget widget-about">
+              <h5 class="widget-title">About Us</h5>
+              <img src="images/Logo images/IMG_9876.PNG" class="img-responsive" style="width:200px"
+                alt="about widget image">
+              <p>We provides all type of tour-services so, you have to don't worry about it. You can also connect with
+                us for tour-services and enquiry. <a href="mor/about-us/index.html">Readmore...</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-widget widget-quick-links">
+              <h5 class="widget-title">Other Links</h5>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#packages">Booking</a></li>
+                <li><a href="#contant">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 col-12" id="contact">
+            <div class="single-widget widget-contact">
+              <h5 class="widget-title">Contact Us</h5>
+              <ul>
+                <li class="address">
+                  <span class="icon"><i class="fa fa-map-marker"></i></span>
+                  <p>Address : No 00100 Luthuri Sreet 100/3 Nairobi City, KE.</p>
+                </li>
+                <li class="phone">
+                  <span class="icon"><i class="fa fa-phone"></i></span>
+                  <p><a href="#">+254 710 177 590</a></p>
+                </li>
+                <li class="fax">
+                  <span class="icon"><i class="fa fa-fax"></i></span>
+                  <p><a href="#">+254 724 798 789</a></p>
+                </li>
+                <li class="email">
+                  <span class="icon"><i class="fa fa-envelope-o"></i></span>
+                  <p><a href="#">mokimark@gmail.com</a></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <!---------------------------------------------FOOTER - START--------------------------------------------------------------------------->
+  <!-- partial -->
+
+</body>
+
+</html>
